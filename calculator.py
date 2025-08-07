@@ -9,6 +9,9 @@ def Divide(x,y):
         return "Error! Division by zero."
     return x / y
 
+
+def multiply(x,y):
+    return x*y
 x= int(input("Enter first number: "))
 y= int(input("Enter second number: "))
 
@@ -25,7 +28,7 @@ if choice == 1:
 elif choice == 2:
     print("Result:", subtract(x,y))
 elif choice == 3:
-    print("Result:")
+    print("Result:",multiply(x,y))
 elif choice == 4:
     print("Result:" divide(x,y))
 

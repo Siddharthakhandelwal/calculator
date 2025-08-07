@@ -27,5 +27,5 @@ elif choice == 2:
 elif choice == 3:
     print("Result:")
 elif choice == 4:
-    print("Result:")
+    print("Result:",divide(x,y))
 

@@ -4,6 +4,11 @@ def add_numbers(x,y):
 def subtract(x,y):
     return x - y
 
+def Divide(x,y):
+    if y == 0:
+        return "Error! Division by zero."
+    return x / y
+
 x= int(input("Enter first number: "))
 y= int(input("Enter second number: "))
 
@@ -22,5 +27,5 @@ elif choice == 2:
 elif choice == 3:
     print("Result:")
 elif choice == 4:
-    print("Result:")
+    print("Result:" divide(x,y))
 

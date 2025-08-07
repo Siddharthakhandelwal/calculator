@@ -1,9 +1,12 @@
-def add(x,y):
+def add_numbers(x,y):
     return x + y
 
-def divide(x, y):
+def subtract(x,y):
+    return x - y
+
+def divide(x,y):
     if y == 0:
-        return "Error! Division by zero."
+        return "Error!"
     return x / y
 
 x= int(input("Enter first number: "))
@@ -18,11 +21,11 @@ print("4. Divide")
 choice=int(input("Enter choice (1/2/3/4): "))
 
 if choice == 1:
-    print("Result:")
+    print("Result:", add_numbers(x,y))
 elif choice == 2:
-    print("Result:")
+    print("Result:", subtract(x,y))
 elif choice == 3:
     print("Result:")
 elif choice == 4:
-    print("Result:",divide(x, y))
+    print("Result:")
 

@@ -1,4 +1,4 @@
-def add(x,y):
+def add_numbers(x,y):
     return x + y
 
 def subtract(x,y):
@@ -16,7 +16,7 @@ print("4. Divide")
 choice=int(input("Enter choice (1/2/3/4): "))
 
 if choice == 1:
-    print("Result:", add(x,y))
+    print("Result:", add_numbers(x,y))
 elif choice == 2:
     print("Result:", subtract(x,y))
 elif choice == 3:

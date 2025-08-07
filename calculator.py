@@ -29,6 +29,5 @@ elif choice == 2:
     print("Result:", subtract(x,y))
 elif choice == 3:
     print("Result:",multiply(x,y))
-elif choice == 4:
-    print("Result:" divide(x,y))
-
+else:
+    print("Result:", Divide(x,y))
